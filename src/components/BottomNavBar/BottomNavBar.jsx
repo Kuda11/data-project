@@ -11,7 +11,7 @@ const BottomNavBar = (props) => {
 
     return(
     <div className={styles.navBarContainer}>
-        <Link to="../../categories">
+        <Link to="../categories">
         <div className={styles.iconContainer}>
             <HomeIcon className={styles.navBarIcons} />
         </div>
