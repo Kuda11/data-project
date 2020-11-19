@@ -14,23 +14,33 @@
     margin-top: 20px;
 
     .primaryBtn,.secondaryBtn {
-      margin-top: 0;
-      width: 164px;
+      margin: 0 5px;
+      width: 45vw;
       height: 45px;
       font-size: 16px;
       font-weight: 700;
+
+      @media only screen and (max-width: 768px) {
+        width: 45vw;
+        margin: 0 5px;
+      }
     }
   }  
   .filterTagsContainer {
 
     .filterTags {
       display: flex;
+      justify-content: space-evenly;
       list-style-type: none;
       white-space: nowrap;
       overflow: scroll;
-      margin-top: 10px;
+      margin-top: 30px;
       font-size: 10px; 
       font-family: Nunito; 
+
+      @media only screen and (max-width: 768px) {
+            justify-content: space-evenly;
+      }
 
       li {
         display: inline-block;
