@@ -11,10 +11,6 @@ import LiftingPenguin from "../../assets/img/Landing/LiftingPenguin.svg";
 
 const LandingPage = () => {
 
-  const betaTestingAlert = () => {
-    alert("We ask that you provide your email address to access the website. This protects us from copyright theft and allows you to enter for beta testing. Thank you for your understanding.")
-  }
-
   return (
     <div className={styles.noNav}>
       <div className={styles.splash}>
@@ -52,8 +48,8 @@ const LandingPage = () => {
                 We want to empower fathers to parent with confidence and enjoy
                 more quality time with their kids.
               </p>
-              <Link to="/sign-up">
-                <button className={styles.secondaryBtn} onClick={betaTestingAlert}>Get Dadvice</button>
+              <Link to="/categories">
+                <button className={styles.secondaryBtn}>Get Dadvice</button>
               </Link>
             </div>
           </div>
